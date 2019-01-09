@@ -10,14 +10,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale-1"/>
         <title>My Milestone Project</title>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
 </head>
-    
-    
+
+
     
 <body>
-<div class="overlay"></div> 
+    
+<div class="overlay"></div>  
         
 <header class="container-fluid">
     <div class="row">
@@ -57,6 +59,7 @@
                         </ul>
                                          
                     </li>
+
              </ul>
              
        </div>                     
@@ -71,51 +74,119 @@
 </header>
 
 
+        
 <section class="container-fluid main-content">
     
+ <div class="row">
+      <hr>
+      <h1 class="band text-center">Pictures</h1>
+      <hr>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol>
+            
+            <div class="carousel-inner">
+                
+                <div class="item active">
+                    <img src="./images/gallery1.jpg" alt="band playing" class="img-responsive">
+                    <div class="carousel-caption">
+                        <p>Band Performing Live</p>
+                   </div>
+                </div>
+                
+                <div class="item">
+                    <img src="./images/gallery4.jpg" alt="band playing" class="img-responsive">
+                    <div class="carousel-caption">
+                    <p>Band Rehearsing!</p>
+                   </div>
+                </div>
+                
+                <div class="item">
+                    <img src="./images/peter and davy.jpg" alt="band playing" class="img-responsive">
+                    <div class="carousel-caption">
+                    <p>Peter Tork and Davy Jones!</p>
+                   </div>
+                </div>
+                
+                <div class="item">
+                    <img src="./images/davy and micky.jpg" alt="band-playing" class="img-responsive">
+                    <div class="carousel-caption">
+                    <p>Davy Jones and Micky Dolnez!</p>
+                   </div>
+                </div>
+                
+                <div class="item">
+                    <img src="./images/Cover-3.jpg" alt="band playing" class="img-responsive">
+                    <div class="carousel-caption">
+                    <p>Band in Los Angeles!</p>
+                 </div>
+            </div>
+            
+            <div class="item">
+                    <img src="./images/Cover-2.jpg" alt="band-playing" class="img-responsive">
+                    <div class="carousel-caption">
+                    <p>Band Album Cover!</p>
+                   </div>
+            </div>
+        
+       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+         <span class="glyphicon glyphicon-chevron-right"></span>
+         <span class="sr-only">Next</span>
+     </a>
+        
+            
+        </div>
+    </div>
+</div>
+        
+    </div>
+</div>
+     
+
+
     
 <div class="row">
-      <img class="img-circle" src="https://raw.githubusercontent.com/Code-Institute-Org/project-assets/master/stream-1/band-assets/images/cover2.png" width=150px; height=120px; alt="the monkees logo">
+    <div class="col-xs-12">
+        
     </div>
 </div>
 
- <div class="row">
-     <div class="col-xs-12">
-      <h1 class="band">The Monkees</h1>
-      <p class="welcome-msg">We love  and appreciate all of our fans who has been listening to our music for decades.</p>
- </div>
-</div>
 
-<hr>
 
 <div class="row">
     <div class="col-xs-12">
-       <h2 class="welcome-msg lead">Sign Up To Our Newsletter</h2>
-       <p class="text-center"><button class="btn btn-danger btn-lg">Sign Up!</button></p>
+    
     </div>
-    
-<div class="row">
-  <div class="col-xs-12">
-      <div class="band-quote">
-          <h3 class="text-center">Quotes</h3>
-        <blockquote>
-            <p class="text-center"> Once you're in, you're in.  It's like the Mafia... once a Monkee, always a Monkee.</p>
-        </blockquote>
-  
-   </div>
-  </div>   
 </div>
-    
-</div>
-
+ 
+ 
+        
 </section>
 
-
+        
+        
 <footer class="container-fluid">
     
+    
     <div class="row">
-        <div class="col-xs-12">
-              
+        <div class="col-xs-12"></div>
+            <div class="row">
               <div class="col-xs-4 text-center">
                  <p><strong class="fa fa-copyright">Copyright Monkees 2018</strong></p>
               </div>
@@ -137,10 +208,10 @@
         </div>
     </div>
     
+            
 </footer>
+
         
 </body>
-    
-    
     
 </html>

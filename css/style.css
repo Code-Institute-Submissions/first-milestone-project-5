@@ -1,64 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:100,200,300,400,500,600,700|Barlow+Condensed:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
+
+
 body {
+    height:100%;
+    width:100%;
     background: url('../images/monkees.jpg') no-repeat center center fixed;
     background-size: cover;
-    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin:0;
+}
+
+.overlay {
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    opacity: 0.75;
+    z-index: -1;
 }
 
 
-    
-.band {
-    display: inherit;
-    color:#fafafa;
-    font-size: 3em;
-    font-family: "Cabin", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    text-transform: uppercase;
-    text-align: center;
-    margin:0;
-    padding: 30px 0 10px;
-    line-height: normal;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-
-}
-
-
-
-.welcome-msg {
-    display: inherit;
-    color:#fafafa;
-    font-size: 1.25em;
-    font-family: "Cabin", sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-align: center;
-    margin:0;
-    padding: 0px 0px 40px;
-    line-height: normal;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-    letter-spacing: 1px;
-  }
-
-
-
-
+/*********************** NAVIGATION ********************************/
 
 
 .navbar{
     border-radius: 0;
-    min-height: 0;
 }
 
 .navbar-default{
     border: none;
-    background-color: #ffffff;
-    background: rgba(255, 255, 255, 0.7);
+    background-color: #fafafa;
+    background: rgba(255, 255, 255, 0.12);
+  
 }
 
-.nav > li > a {
-    padding: 30px;
+.navbar-default .navbar-nav > li > a {
+    color: #A50000;
+    margin: 0px 10px;
+    text-shadow: 1px 1px #CACFD1;
 }
 
 
@@ -66,38 +48,270 @@ body {
     line-height: normal;
 }
 
+.nav > li > a {
+    padding: 15px;
+}
+
+
 
 .navbar-nav {
     display: table;
-    font-size: 1.25em;
+    font-size: 1.4em;
     margin: 0 auto;
     table-layout: fixed;
     float: none;
     text-transform: uppercase;
-    font-weight: 400;
+    font-family: "Barlow+Condensed";
+    font-weight: 900;
     letter-spacing: 3px;
 }
+
+.navbar-header .navbar-brand {
+    color: brown;
+    text-transform: uppercase;
+    font-family: "Barlow+Condensed";
+    font-weight: 600;
+}
+
+
+
+/*********************** DROPDOWN ********************************/
+
+.dropdown {
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 53px;
+    transform: translateY(-100%);
+    cursor: pointer;
+
+}
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    max-width: 50%;
+    min-height: 100px;
+    background-color: transparent;
+    font-family: "Barlow+Condensed";
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+
+.dropdown-menu li a {
+    color:red;
+}
+
+
+
+
+/*********************** HOME SECTION ********************************/
+
+.main-content {
+    padding-bottom: 75px;
+}
+
+
+.band,
+.welcome-msg {
+    display: none;
+}
+
+ 
+
+@media screen and (min-width: 768px) {
+    
+  .navbar-header {
+        display: none;
+    }
+    
+    
+  .band {
+    display: inherit;
+    color:#D7263D;
+    font-size: 3.5em;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin:0;
+    padding: 30px 0 10px;
+  
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.55);
+
+    }
+    
+  .welcome-msg {
+    display: inherit;
+    color:#a9426b;
+    font-size: 1.2em;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin:0;
+    padding: 0px 0px 40px;
+    line-height: normal;
+    text-shadow: 0px -9px 8px rgba(255,255,255,0.25);
+    letter-spacing: 1px;
+    }
+    
+    
+
+    
+
+}
+
+
+.img-circle {
+    display: block;
+    margin: 0 auto;
+    padding:10px 20px;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 10px;
+    
+}
+
+.band-image {
+    width: 100%;
+    height:auto;
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.band-info {
+    background:#792f2f;
+    box-shadow: 28px 57px 44px 0px rgba(0,0,0,0.75);
+
+}
+
+
+
+blockquote {
+    margin:0;
+    padding:30px;
+    border-left:none;
+}
+
+
+h3,
+h2{
+    text-transform: uppercase;
+    color:red;
+    font-family:"Barlow+Condensed";
+    font-weight: 500;
+    font-size: 2.1em;
+}
+
+h4 {
+    color: #fafafa;
+    font-family: "Barlow+Condensed";
+    letter-spacing: 4px;
+}
+
+
+
+
+.audio-section {
+    width: 100%;
+    height:auto;
+    
+    border-radius: 5px;
+    padding-bottom: 10px;
+    background:#863838;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+.audio-section audio {
+    border-radius: 50%;
+}
+
+/*********************** FOOTER ********************************/
 
 
 footer{
     background-color: white;
     background-color: rgba(225,225,225,0.9);
-    padding: 30px;
+    padding: 10px;
     position: fixed;
-    bottom:0;
-    left:0;
     right:0;
+    left:0;
+    bottom:0;
+    clear: both;
+    
+}
+
+footer p{
+    margin-bottom: 0;
 }
 
 p {
-    color: black;
-    font-size: 1em;
-    line-height: 1.25;
-    font-family: "Cabin";
-    font-weight: 300;
+    color:#fafafa;
+    line-height: 1.1;
+    font-family: "Barlow+Condensed";
+    font-weight: 700;
+    font-size: 1.1em;
+    padding-left: 10px;
+    
 }
 
-footer p {
-    margin:0;
-    padding:20px 0px;
+.about-band {
+    width:100%;
+    letter-spacing: 3px;
+    margin: 0 auto;
+    padding: 10px 10px;
 }
+
+.text-center a{
+    text-decoration: none;
+}
+
+
+.carousel-control.left {
+    background-image: linear-gradient(to right,rgba(173, 85, 85, 0.62) 0,rgba(0,0,0,.0001) 100%);
+}
+
+
+.carousel-control.right {
+    background-image: linear-gradient(to right,rgba(173, 85, 85, 0.62) 0,rgba(0,0,0,.0001) 100%);
+} 
+
+
+
+/************************CONTACT****************/
+
+.form-section {
+    
+    margin:0 auto;
+    
+    padding-top: 5px;
+    max-width: 70%;
+    min-height: 100px;
+    background-color: #4a2307cf;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+
+.center-form{
+   padding:10px 10px;
+}
+
+
+ span {
+    color: red;
+}
+
