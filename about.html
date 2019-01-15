@@ -11,10 +11,12 @@
         <meta name="viewport" content="width=device-width, initial-scale-1"/>
         <title>My Milestone Project</title>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
         
 </head>
     
 <body>
+    
 <div class="overlay"></div>    
         
 <header class="container-fluid">
@@ -32,14 +34,14 @@
         <span class="icon-bar"></span> 
       </button>
      
-      <a class="navbar-brand" href="#">The Monkees</a>
+      <a class="navbar-brand" href="index.html">The Monkees</a>
       
     </div>
                
                
         <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                    <li><a href="home.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                                      
@@ -74,8 +76,7 @@
 <section class="container-fluid">
     
  <div class="row">
-     
-         <img  width="400px" height="180px" class="monkees-icon" src="https://static1.squarespace.com/static/583863c1e6f2e1216884123c/t/5a26b3f124a694f272e8be3d/1512495829597/Monkees_red.jpg" alt="monkees icon">
+         <img  width="400px" height="180px" class="hidden-xs" src="https://static1.squarespace.com/static/583863c1e6f2e1216884123c/t/5a26b3f124a694f272e8be3d/1512495829597/Monkees_red.jpg" alt="monkees icon">
     </div>
 </div>
 
@@ -95,13 +96,14 @@
 
 </section>
 
+
 <section class="container-fluid main-content">
 
 <div class="row">
     <div class="col-xs-12">
-     <hr>    
-     <h2 class="text-center">Band member</h2>
-     <hr>
+     <hr class="divider">    
+     <h2 class="text-center band-bio">Band members</h2>
+     <hr class="divider">
     </div>
 </div>
 
@@ -110,8 +112,8 @@
     <div class="col-xs-12 col-sm-6 col-md-3">
             <img class="band-image" src="https://raw.githubusercontent.com/Code-Institute-Org/project-assets/master/stream-1/band-assets/images/pt.jpg" alt="first image">
         <div class="band-info">
-            <p><label>Peter Tork</label></p>
-            <p><span><em> Singer, Guitarist </em></span></p>
+            <p class="band-name"><label>Peter Tork</label></p>
+            <p><span class="band-role"><em> Singer, Guitarist </em></span></p>
             <p>Born in 1942, Peter Tork discovered a passion for music early on. He participated in the New York City folk scene in the early 1960s. Moving to California, he landed a part in The Monkees television series in 1965. The fictional band soon became a real hit, scoring several No. 1 songs. Tork left the group in the late 1960s, but he has reunited with the Monkees several times over the years.</p>
         </div>
     </div>
@@ -120,8 +122,8 @@
 <div class="col-xs-12 col-sm-6 col-md-3">
             <img  class="band-image" src="https://raw.githubusercontent.com/Code-Institute-Org/project-assets/master/stream-1/band-assets/images/mn.jpg" alt="second image">
     <div class="band-info">
-        <p><label>Michael Nesmith</label></p>
-        <p><span><em> Singer, Songwriter </em></span></p>
+        <p class="band-name"><label>Michael Nesmith</label></p>
+        <p><span class="band-role"><em> Singer, Songwriter </em></span></p>
         <p>Born in Texas in 1942, Nesmith served in the U.S. Air Force before pursuing a career in music. He signed on to become a member of the Monkees, a television rock group, in the mid-1960s. The Monkees enjoyed tremendous success on the pop charts. After he left the group in 1970s, Nesmith pursued solo projects. He has occasionally reunited with his Monkees bandmates over the years.</p>
     </div>
 </div>
@@ -131,8 +133,8 @@
 <div class="col-xs-12 col-sm-6 col-md-3">
         <img  class="band-image" src="https://raw.githubusercontent.com/Code-Institute-Org/project-assets/master/stream-1/band-assets/images/dj.jpg" alt="third imgae">
     <div class="band-info">
-        <p><label>Davy Jones</label></p>
-        <p><span><em> Television Actor, Singer </em></span></p>
+        <p class="band-name"><label>Davy Jones</label></p>
+        <p><span class="band-role"><em> Television Actor, Singer </em></span></p>
         <p>The Monkees debuted on television in September 1966, and Davy Jones attracted a lot of attention from fans for his charm, wit, warm sense of humor and boyish good looks. The Monkees soon scored on the music charts with hits like "I'm a Believer," "Pleasant Valley Sunday" and "Daydream Believer" covers of songs originally released by Neil Diamond, Gerry Goffin and Carole King, and John Stewart, respectively, and their albums sold millions of copies. Jones later wrote several autobiographies, including 1987's They Made a Monkee Out of Me.</p>
     </div>
 </div>
@@ -141,8 +143,8 @@
 <div class="col-xs-12 col-sm-6 col-md-3">
         <img  class="band-image" src="https://raw.githubusercontent.com/Code-Institute-Org/project-assets/master/stream-1/band-assets/images/md.jpg" alt="fourth image">
     <div class="band-info">
-        <p><label>Micky Dolnez</label></p>
-        <p><span><em> Television Actor, Theater Actor, Singer </em></span></p> 
+        <p class="band-name"><label>Micky Dolnez</label></p>
+        <p><span class="band-role"><em> Television Actor, Theater Actor, Singer </em></span></p> 
         <p>Micky Dolenz was born on March 8, 1945 in Los Angeles. He had a few television roles and played with bands before being cast in The Monkees, a show about a fictitious rock band. Though made for TV, The Monkees had real-life hits and struggled against their "Pre-Fab Four" image. The series was canceled in 1968 and the band split in 1969. Dolenz has appeared on Broadway and worked as a tv director.</p>
     </div>
 </div>
@@ -158,14 +160,13 @@
 
         
         
-<footer class="container-fluid">
-    
+<footer class="container-fluid main-footer">
     
     <div class="row">
-        <div class="col-xs-12"></div>
-            <div class="row">
+        <div class="col-xs-12">
+              
               <div class="col-xs-4 text-center">
-                 <p><strong class="fa fa-copyright">Copyright Monkees 2018</strong></p>
+                 <p class="footer-detail"><i class="fa fa-copyright"></i><strong>Copyright Monkees 2018</strong></p>
               </div>
                  
               <div class="col-xs-4 text-center">
@@ -173,9 +174,9 @@
               </div>
                  
               <div class="col-xs-4 text-center">
-                <p class="uppercase"> Follow us on</p>
+                <p class="footer-detail"> Follow us on</p>
                 
-                <ul class="list-inline">
+                <ul class="list-inline social-link">
                         <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
                         <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -185,7 +186,6 @@
         </div>
     </div>
     
-            
 </footer>
         
         

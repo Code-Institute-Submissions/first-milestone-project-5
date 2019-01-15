@@ -11,12 +11,14 @@
         <meta name="viewport" content="width=device-width, initial-scale-1"/>
         <title>My Milestone Project</title>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
     
     
     
 <body>
+    
+    
 <div class="overlay"></div> 
         
 <header class="container-fluid">
@@ -28,21 +30,21 @@
 <div class="navbar navbar-default">
     <div class="navbar-header">
                
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <button type="button" class="navbar-toggle collapsed toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
      
-      <a class="navbar-brand" href="#">The Monkees</a>
+      <a class="navbar-brand" href="index.html">The Monkees</a>
       
     </div>
                
                
         <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
                     <li><a href="contact.html">Contact</a></li>
                                      
                     <li class="dropdown">
@@ -75,31 +77,33 @@
     
     
 <div class="row">
-      <img class="img-circle" src="https://raw.githubusercontent.com/Code-Institute-Org/project-assets/master/stream-1/band-assets/images/cover2.png" width=150px; height=120px; alt="the monkees logo">
+      <img class="img-circle animated bounceInDown" src="https://raw.githubusercontent.com/Code-Institute-Org/project-assets/master/stream-1/band-assets/images/cover2.png" width=150px; height=120px; alt="the monkees logo">
     </div>
 </div>
 
  <div class="row">
-     <div class="col-xs-12">
+     <div class="col-xs-12 animated bounceInDown">
       <h1 class="band">The Monkees</h1>
       <p class="welcome-msg">We love  and appreciate all of our fans who has been listening to our music for decades.</p>
  </div>
 </div>
 
-<hr>
+<hr class="first-divider animated slideInLeft">
 
 <div class="row">
-    <div class="col-xs-12">
-       <h2 class="welcome-msg lead">Sign Up To Our Newsletter</h2>
-       <p class="text-center"><button class="btn btn-danger btn-lg">Sign Up!</button></p>
+    <div class="col-xs-12 animated bounceInUp">
+       <h2 class="welcome-msg lead">Sign Up To Our Newsletter To Receive Updates From Us</h2>
+       <p class="text-center"><button class="btn btn-danger btn-lg button-center">Sign Up!</button></p>
     </div>
     
 <div class="row">
-  <div class="col-xs-12">
+  <div class="col-xs-12 animated bounceInUp">
       <div class="band-quote">
-          <h3 class="text-center">Quotes</h3>
         <blockquote>
-            <p class="text-center"> Once you're in, you're in.  It's like the Mafia... once a Monkee, always a Monkee.</p>
+            <p class="text-center about-band"> "Once you're in, you're in.  It's like the Mafia... once a Monkee, always a Monkee."</p>
+        <div class="col-xs-12">
+            <footer>Late. Davy Jones <cite title="Singer">"Singer"</cite></footer>
+        </div>
         </blockquote>
   
    </div>
@@ -111,21 +115,21 @@
 </section>
 
 
-<footer class="container-fluid">
+<footer class="container-fluid main-footer">
     
     <div class="row">
         <div class="col-xs-12">
               
               <div class="col-xs-4 text-center">
-                 <p><strong class="fa fa-copyright">Copyright Monkees 2018</strong></p>
+                 <p class="footer-detail"><i class="fa fa-copyright"></i><strong>Copyright Monkees 2018 </strong></p>
               </div>
                  
               <div class="col-xs-4 text-center">
-                <p><a href="contact.html">Contact Us</a></p>
+                <p><a href="contact.html"><strong> Contact Us </strong></a></p>
               </div>
                  
               <div class="col-xs-4 text-center">
-                <p class="uppercase"> Follow us on</p>
+                <p class="footer-detail"><strong> Follow us on </strong></p>
                 
                 <ul class="list-inline">
                         <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
@@ -138,6 +142,8 @@
     </div>
     
 </footer>
+
+
         
 </body>
     

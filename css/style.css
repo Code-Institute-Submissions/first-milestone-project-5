@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin:100,200,300,400,500,600,700|Barlow+Condensed:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Cabin:100,200,300,400,500,600,700|Barlow+Condensed:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,800,900,|Caveat:400,700');
 
 
 
@@ -23,7 +23,9 @@ body {
 }
 
 
+
 /*********************** NAVIGATION ********************************/
+
 
 
 .navbar{
@@ -41,6 +43,10 @@ body {
     color: #A50000;
     margin: 0px 10px;
     text-shadow: 1px 1px #CACFD1;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #BAC4C3;
 }
 
 
@@ -69,13 +75,21 @@ body {
 .navbar-header .navbar-brand {
     color: brown;
     text-transform: uppercase;
-    font-family: "Barlow+Condensed";
-    font-weight: 600;
+    font-family: "Caveat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.55);
+}
+
+.navbar-header .navbar-brand:hover {
+    color:#fafafa;
 }
 
 
 
+
 /*********************** DROPDOWN ********************************/
+
 
 .dropdown {
 
@@ -103,20 +117,71 @@ body {
 
 
 .dropdown-menu li a {
-    color:red;
+    color:brown;
+    font-family: "Caveat",sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    background-color: #FCCF81;
 }
+
 
 
 
 
 /*********************** HOME SECTION ********************************/
 
-.main-content {
-    padding-bottom: 75px;
+.first-divider {
+    width: 80%;
+    height: 3px;
+    background-color: #AF713D;
+    border: none;
+}
+
+.divider {
+    width: 350px;
+    height: 5px;
+    background-color: #AF713D;
+    border: none;
 }
 
 
-.band,
+.main-content {
+    padding-bottom: 110px;
+}
+
+
+
+.band {
+    
+    display: inherit;
+    color:#D7263D;
+    font-size: 60px;
+    font-family: "Caveat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin:0;
+    padding: 10px 0 10px;
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.55);
+
+    }
+
+
+.band-bio {
+    
+    display: inherit;
+    color:#D7263D;
+    font-size: 50px;
+    font-family: "Caveat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin:0;
+    padding: 10px 0 10px;
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.55);
+}
+
+
 .welcome-msg {
     display: none;
 }
@@ -130,24 +195,9 @@ body {
     }
     
     
-  .band {
-    display: inherit;
-    color:#D7263D;
-    font-size: 3.5em;
-    font-family: "Cabin", sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    margin:0;
-    padding: 30px 0 10px;
-  
-    text-shadow: 1px 1px 2px rgba(255,255,255,0.55);
-
-    }
-    
   .welcome-msg {
     display: inherit;
-    color:#a9426b;
+    color:#e07785;
     font-size: 1.2em;
     font-family: "Cabin", sans-serif;
     font-weight: 600;
@@ -156,15 +206,15 @@ body {
     margin:0;
     padding: 0px 0px 40px;
     line-height: normal;
-    text-shadow: 0px -9px 8px rgba(255,255,255,0.25);
+    /*text-shadow: 0px -9px 8px rgba(255,255,255,0.25);*/
     letter-spacing: 1px;
     }
-    
-    
+
 
     
 
 }
+
 
 
 .img-circle {
@@ -174,6 +224,7 @@ body {
 }
 
 
+
 img {
     display: block;
     margin: 0 auto;
@@ -181,21 +232,10 @@ img {
     
 }
 
-.band-image {
-    width: 100%;
-    height:auto;
-    border: 2px solid #dedede;
-    border-radius: 5px;
-    padding-bottom: 10px;
-}
-
-.band-info {
-    background:#792f2f;
-    box-shadow: 28px 57px 44px 0px rgba(0,0,0,0.75);
-
-}
 
 
+
+/*******************************************************************************/
 
 blockquote {
     margin:0;
@@ -204,14 +244,36 @@ blockquote {
 }
 
 
-h3,
-h2{
+footer {
+    float:none;
+    text-align: center;
+}
+
+
+blockquote footer {
+    color:#f7efef9e;
+    font-size:1em;
+}
+
+
+.footer-detail {
+    color:brown;
+    text-transform: capitalize;
+}
+
+
+
+/*******************************HEADINGS************************************************/
+
+h2,
+h3{
     text-transform: uppercase;
     color:red;
-    font-family:"Barlow+Condensed";
-    font-weight: 500;
+    font-family:"Cabin";
+    font-weight: 800;
     font-size: 2.1em;
 }
+
 
 h4 {
     color: #fafafa;
@@ -221,6 +283,7 @@ h4 {
 
 
 
+/********************************AUDIO***********************************************/
 
 .audio-section {
     width: 100%;
@@ -238,10 +301,11 @@ h4 {
     border-radius: 50%;
 }
 
+
 /*********************** FOOTER ********************************/
 
 
-footer{
+.main-footer{
     background-color: white;
     background-color: rgba(225,225,225,0.9);
     padding: 10px;
@@ -253,30 +317,102 @@ footer{
     
 }
 
+
+
 footer p{
     margin-bottom: 0;
 }
 
+.footer-detail {
+    color:brown;
+    text-transform: capitalize;
+}
+
+.fa {
+  font: normal normal normal 27px/1 FontAwesome;
+}
+
+.fa-twitter {
+    color:#7CBADC;
+}
+
+.fa-youtube {
+    color:#CE0300;
+}
+
+.fa-facebook {
+    color:#3C58B3;
+}
+
+/******************************ABOUT SECTION*************************************************/
+
+
 p {
-    color:#fafafa;
+    color:#E8E3E1;
     line-height: 1.1;
-    font-family: "Barlow+Condensed";
-    font-weight: 700;
-    font-size: 1.1em;
+    font-family: "Cabin";
+    font-weight: 500;
+    font-size: 1.19em;
     padding-left: 10px;
+    padding-bottom: 5px;
+    letter-spacing: 3.8px;
+    
     
 }
 
+
 .about-band {
     width:100%;
-    letter-spacing: 3px;
+    letter-spacing: 3.8px;
     margin: 0 auto;
+    color:#FFE0C6;
     padding: 10px 10px;
 }
 
 .text-center a{
     text-decoration: none;
+    color: brown;
+    font-family: "Cabin",sans-serif;
+    /*font-weight: 600;*/
 }
+
+.band-image {
+    width: 100%;
+    height:auto;
+    border: 6px solid #dedede;
+    
+    border-radius: 5px;
+    /*padding-bottom: 10px;*/
+}
+
+.band-info {
+    background:#792f2fb0;
+    box-shadow: 28px 57px 44px 0px rgba(0,0,0,0.75);
+    border-radius: 2%;
+
+}
+
+
+.band-name {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 22px;
+    text-transform: capitalize;
+    color:#CCC9C9;
+    padding-top: 5px;
+}
+
+.band-role {
+    color: #FCBE53;
+    font-family: "Barlow+Condensed", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+   
+}
+
+/************************CAROUSEL***************************************/
 
 
 .carousel-control.left {
@@ -290,14 +426,13 @@ p {
 
 
 
-/************************CONTACT****************/
+/*************************************CONTACT***************************/
 
 .form-section {
     
     margin:0 auto;
     
-    padding-top: 5px;
-    max-width: 70%;
+    max-width: 75%;
     min-height: 100px;
     background-color: #4a2307cf;
     -moz-border-radius: 15px;
@@ -307,11 +442,48 @@ p {
 
 
 .center-form{
-   padding:10px 10px;
+   padding:5px 30px;
+}
+
+.button-center {
+    margin: 10px 10px;
+    color: #FCBE53;
+    text-transform: uppercase;
+    font-family: "Cabin", sans-serif;
 }
 
 
  span {
-    color: red;
+     color:red;
+ }
+
+
+/****************************************VIDEO**************************************/
+
+.form-control {
+    color: #022B3A;
+    font-size: 17px;
+    font-family: "Cabin";
+    text-transform: capitalize;
+    font-weight: 700;
+    height: auto;
+    border:none;
 }
 
+
+/****************************************PICTURES***********************************/
+
+.band-caption {
+    position: absolute;
+    right:0;
+    left:0;
+    top: 1%;
+    
+    color: #FFF4F6;
+    font-family: "Cabin", sans-serif;
+    font-size: 1.27em;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: capitalize;
+    
+}
