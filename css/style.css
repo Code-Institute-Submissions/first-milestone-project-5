@@ -28,6 +28,7 @@ body {
 
 
 
+
 .navbar{
     border-radius: 0;
 }
@@ -35,7 +36,7 @@ body {
 .navbar-default{
     border: none;
     background-color: #fafafa;
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
   
 }
 
@@ -188,7 +189,7 @@ body {
 
  
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 568px) {
     
   .navbar-header {
         display: none;
@@ -208,10 +209,23 @@ body {
     line-height: normal;
     /*text-shadow: 0px -9px 8px rgba(255,255,255,0.25);*/
     letter-spacing: 1px;
+    
     }
 
 
+   
+
+
+}
+
+@media screen and (max-width:992px) {
     
+   .navbar-default .navbar-nav > li > a {
+      color: #A50000;
+      margin: 0px 10px;
+      text-shadow: 1px 1px #afaee8;
+    }
+
 
 }
 
@@ -229,6 +243,10 @@ img {
     display: block;
     margin: 0 auto;
     padding: 10px 10px;
+    
+    animation-duration: 1s;
+    animation-delay: .5s;
+    animation-iteration-count: 1;
     
 }
 
@@ -276,7 +294,7 @@ h3{
 
 
 h4 {
-    color: #fafafa;
+    color: #000000;
     font-family: "Barlow+Condensed";
     letter-spacing: 4px;
 }
@@ -464,7 +482,7 @@ p {
     color: #022B3A;
     font-size: 17px;
     font-family: "Cabin";
-    text-transform: capitalize;
+    text-transform: none;
     font-weight: 700;
     height: auto;
     border:none;
@@ -487,3 +505,9 @@ p {
     text-transform: capitalize;
     
 }
+
+
+
+/*.toggle:checked + .navbar-nav {*/
+/*    display: block;*/
+/*}*/
