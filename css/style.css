@@ -244,10 +244,13 @@ img {
     margin: 0 auto;
     padding: 10px 10px;
     
+    
+}
+
+img.animated {
     animation-duration: 1s;
     animation-delay: .5s;
     animation-iteration-count: 1;
-    
 }
 
 
