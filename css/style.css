@@ -189,7 +189,7 @@ body {
 
  
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 668px) {
     
   .navbar-header {
         display: none;
@@ -225,6 +225,22 @@ body {
       margin: 0px 10px;
       text-shadow: 1px 1px #afaee8;
     }
+    
+ .dropdown-menu li a {
+    color:white;
+    font-family: "Caveat",sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    background-color: #000;
+}
+
+ .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #cce0c7;
+ }
+ 
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: white;
+ }
 
 
 }
