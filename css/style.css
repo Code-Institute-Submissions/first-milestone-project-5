@@ -231,11 +231,8 @@ body {
     }
     
  .dropdown-menu li a {
-    color:white;
-    font-family: "Caveat",sans-serif;
-    font-size: 1em;
-    font-weight: 600;
     background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
@@ -245,6 +242,20 @@ body {
   .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
     color: white;
  }
+ 
+   .dropdown {
+	position: relative;
+	left: 0;
+	right: 0;
+	top: 0px;
+	transform: translateY(0%);
+	cursor: pointer;
+}
+
+.dropdown:hover .dropdown-menu {
+    max-width: 0%;
+ 
+}
 
 
 }
