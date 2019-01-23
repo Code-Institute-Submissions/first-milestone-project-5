@@ -12,11 +12,13 @@ and I think it would be a good preview for when the band are ready to launch thi
 ## UX
 
 The UX for this project is quite simple, it's mainly a static site for fans to be able to
-globally find the bands lastest and back catalog info. New releases, keep up to date with the lastest information,
-video updates and so on. The colour shceme was requested by the band.
+globally find the bands lastest and back catalog info. The navigation is easy and smooth for users.
+Band's representatives only provided us with back catalog of tracks for now, but we will keep up to date with the 
+lastest information on audio and video updates and so on. 
+The colour shceme was requested by the band representatives.
 
-Please note I have insisted for the contrast of the red to be different as I advised it
-will be more beneficial to have a higher contrast for readability purposes.
+Please note I have insisted for the contrast of the red to be different as I was advised it
+will be more beneficial to have a lighter contrast for readability purposes.
 
 ## Features 
 
@@ -54,9 +56,10 @@ a visitor.
 * Subscription form could be improved as other tech could be used to gather a
 mailing list for the band to be able to do regular new updates to their sites.
 
-* Audio page could be listed as playlist and trigger changes automatically.
+* More could be added to audio tracks and audio tracks could be listed as playlist and trigger changes automatically via JS.
 
 * Contact form can be updated with JS by adding mail functions to it.
+
 
 
 ### Getting Started
@@ -73,7 +76,7 @@ This site is supported all browsers. Check below for tested devices and browsers
 
 ### External sites used 
 
-* [Bootstrap](https://getbootstrap.com/docs/3.3.7/getting-started/introduction/) - The web framework used 
+* [Bootstrap](https://getbootstrap.com/docs/3.3/getting-started/) - The web framework used 
 * [W3 Schools](https://www.w3schools.com/html/default.asp) - Help & tips 
 * [Font Awesome](https://www.bootstrapcdn.com/fontawesome/) - Icons 
 * [Animate](https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css) - Animation
@@ -86,7 +89,7 @@ This site is supported all browsers. Check below for tested devices and browsers
 
 ## Custom Fonts 
 
-I created fonts using **@googleapis CSS 'Cabin Caveat Barlow+Condensed'** used to keep original band branding.
+I used fonts from **@googleapis CSS 'Cabin Caveat Barlow+Condensed'** to create difference in headers.
 
 ## Technologies used
 

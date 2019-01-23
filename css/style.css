@@ -373,18 +373,27 @@ h4 {
 
 .audio-section div {
     min-height: 50vh;
-    border-radius: 5px;
+     -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -o-border-radius: 5%;
+    border-radius: 5%;
    
     box-shadow: 10px 10px 15px 0px rgba(123,81,81,0.7);
 }
 
-
+.audio-section {
+    margin: 10px;
+}
 
 .audio-section audio {
+     -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
     border-radius: 50%;
     background:#fafafa;
     box-shadow: 10px 10px 5px 0px rgba(207,207,208,0.75);
 }
+
 
 
 /*********************** FOOTER ********************************/
