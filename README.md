@@ -137,12 +137,12 @@ I used fonts from **@googleapis CSS 'Cabin Caveat Barlow+Condensed'** to create 
 | -------------  |:-------------:|  ---------:|
 | Animation      |    Yes        |     Yes    |
 | Dropdown       |    Yes        |     Yes    |
-| Alert          |    No         |     No     |
+| Alert          |    Yes        |     No     |
 | Modal          |    Yes        |     Yes    |
 | About Us       |    Yes        |  Partially |
 | Images         |    Yes        |  Partially |
 | Contact        |    Yes        |  Partially |
-| Audios         |    No         |     No     |
+| Audios         |    Yes        |     No     |
 | Videos         |    Yes        |     Yes    |
 | Carousel       |    Yes        |     Yes    |
 
@@ -165,7 +165,7 @@ I used fonts from **@googleapis CSS 'Cabin Caveat Barlow+Condensed'** to create 
 | -------------  |:-------------:|  ---------:|
 | Animation      |    Yes        |     Yes    |
 | Dropdown       |    Yes        |     Yes    |
-| Alert          |    Yes        |     Yes    |
+| Alert          |    No         |     No     |
 | Modal          |    Yes        |     Yes    |
 | About Us       |    Yes        |     Yes    |
 | Images         |    Yes        |     Yes    |
@@ -180,7 +180,7 @@ I used fonts from **@googleapis CSS 'Cabin Caveat Barlow+Condensed'** to create 
 | -------------  |:-------------:|  ---------:|
 | Animation      |    Yes        |     Yes    |
 | Dropdown       |    Yes        |     Yes    |
-| Alert          |    Yes        |     No     |
+| Alert          |    No         |     No     |
 | Modal          |    Yes        |     Yes    |
 | About Us       |    Yes        |     Yes    |
 | Images         |    Yes        |     Yes    |
