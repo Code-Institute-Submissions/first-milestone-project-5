@@ -119,6 +119,10 @@ I used fonts from **@googleapis CSS 'Cabin Caveat Barlow+Condensed'** to create 
 + Tested on **Opera**
 + Tested on **Safari**
 
+Element Tested|    OS    | YES | NO
+ Animation    |  Chrome  |  OK |
+ Dropdwon     |  Opera
+ 
 
 ## Deployment 
 
