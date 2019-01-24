@@ -311,7 +311,7 @@ img.animated {
 
 
 
-/*******************************************************************************/
+/******************************* QUOTE ************************************************/
 
 blockquote {
     margin:0;
@@ -485,16 +485,24 @@ p.about-band {
 .band-image {
     width: 100%;
     height:auto;
-    border: 6px solid #dedede;
-    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
     border-radius: 5px;
+    
+    border: 6px solid #dedede;
+
     /*padding-bottom: 10px;*/
 }
 
 .band-info {
     background:#792f2fb0;
     box-shadow: 28px 57px 44px 0px rgba(0,0,0,0.75);
+    -moz-border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -o-border-radius: 2%;
     border-radius: 2%;
+    
 
 }
 
