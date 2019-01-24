@@ -112,24 +112,111 @@ I used fonts from **@googleapis CSS 'Cabin Caveat Barlow+Condensed'** to create 
 
 + Tested on **Chrome** (Tested in DevOps on all mobile and tablet devices possible for testing.)
 + Tested on **IE**
-+ Tested on  **Samsung S8**
-+ Tested on **Samsung S9**
++ Tested on  **Android**
 + Tested on **Iphone**
-+ Tested on **Firefox**
-+ Tested on **Opera**
-+ Tested on **Safari**
-+ 
++ Tested on **Firefox** (Tested in DevOps on all mobile and tablet devices possible for testing.)
++ Tested on **Opera** (Tested in DevOps on all mobile and tablet devices possible for testing.)
++ Tested on **Safari** (Tested in DevOps on all mobile and tablet devices possible for testing.)
 
-| Element Tested | Chrome        | Functions  |
+
+|   Tested       |   Chrome      | Functions  |       
 | -------------  |:-------------:|  ---------:|
 | Animation      |    Yes        |     Yes    |
-| Dropdown       |    Yes        |            |
-| Alert          |    Yes        |            |
-| Modal          |    Yes        |            |
-| Contact        |    Yes        |            |
-| Audios         |    Yes        |            |
-| Videos         |    Yes        |            |
-| Pictures       |    Yes        |            |
+| Dropdown       |    Yes        |     Yes    |
+| Alert          |    Yes        |     Yes    |
+| Modal          |    Yes        |     Yes    |
+| About Us       |    Yes        |     Yes    |
+| Images         |    Yes        |     Yes    |
+| Contact        |    Yes        |     Yes    |
+| Audios         |    Yes        |     Yes    |
+| Videos         |    Yes        |     Yes    |
+| Carousel       |    Yes        |     Yes    |
+
+
+|   Tested       |     IE        | Functions  |
+| -------------  |:-------------:|  ---------:|
+| Animation      |    Yes        |     Yes    |
+| Dropdown       |    Yes        |     Yes    |
+| Alert          |    No         |     No     |
+| Modal          |    Yes        |     Yes    |
+| About Us       |    Yes        |  Partially |
+| Images         |    Yes        |  Partially |
+| Contact        |    Yes        |  Partially |
+| Audios         |    No         |     No     |
+| Videos         |    Yes        |     Yes    |
+| Carousel       |    Yes        |     Yes    |
+
+
+|    Tested      | Android Tablet| Functions  |
+| -------------  |:-------------:|  ---------:|
+| Animation      |    Yes        |     Yes    |
+| Dropdown       |    Yes        |     Yes    |
+| Alert          |    Yes        |     Yes    |
+| Modal          |    Yes        |     Yes    |
+| About Us       |    Yes        |     Yes    |
+| Images         |    Yes        |     Yes    |
+| Contact        |    Yes        |     Yes    |
+| Audios         |    Yes        |     Yes    |
+| Videos         |    Yes        |     Yes    |
+| Carousel       |    Yes        |     Yes    |
+
+
+
+|   Tested       |   Iphone      | Functions  |
+| -------------  |:-------------:|  ---------:|
+| Animation      |    Yes        |     Yes    |
+| Dropdown       |    Yes        |     Yes    |
+| Alert          |    Yes        |     No     |
+| Modal          |    Yes        |     Yes    |
+| About Us       |    Yes        |     Yes    |
+| Images         |    Yes        |     Yes    |
+| Contact        |    Yes        |     Yes    |
+| Audios         |    Yes        |  Partially |
+| Videos         |    Yes        |     Yes    |
+| Carousel       |    Yes        |     Yes    |
+
+
+
+|   Tested       |    Firefox    | Functions  |
+| -------------  |:-------------:|  ---------:|
+| Animation      |    Yes        |     Yes    |
+| Dropdown       |    Yes        |     Yes    |
+| Alert          |    Yes        |     Yes    |
+| Modal          |    Yes        |     Yes    |
+| About Us       |    Yes        |     Yes    |
+| Images         |    Yes        |     Yes    |
+| Contact        |    Yes        |     Yes    |
+| Audios         |    Yes        |     Yes    |
+| Videos         |    Yes        |     Yes    |
+| Carousel       |    Yes        |     Yes    |
+
+
+|   Tested       |    Opera      | Functions  |
+| -------------  |:-------------:|  ---------:|
+| Animation      |    Yes        |     Yes    |
+| Dropdown       |    Yes        |     Yes    |
+| Alert          |    Yes        |     Yes    |
+| Modal          |    Yes        |     Yes    |
+| About Us       |    Yes        |     Yes    |
+| Images         |    Yes        |     Yes    |
+| Contact        |    Yes        |     Yes    |
+| Audios         |    Yes        |  Partially |
+| Videos         |    Yes        |     Yes    |
+| Carousel       |    Yes        |     Yes    |
+
+
+|   Tested       |   Safarai     | Functions  |
+| -------------  |:-------------:|  ---------:|
+| Animation      |    Yes        |     Yes    |
+| Dropdown       |    Yes        |     Yes    |
+| Alert          |    Yes        |     Yes    |
+| Modal          |    Yes        |     Yes    |
+| About Us       |    Yes        |     Yes    |
+| Images         |    Yes        |  Partially |
+| Contact        |    Yes        |     Yes    |
+| Audios         |    Yes        |  Partially |
+| Videos         |    Yes        |     Yes    |
+| Carousel       |    Yes        |     Yes    |
 
 
 
@@ -159,5 +246,5 @@ The text for the about section was copied from wikipedia
 All media was provided by the band representative and some were pulled via google serach.
 
 ### Acknowledgements
-I received inspiration from this project via my mentor
+I received inspiration for this project via my mentor
 Chris Zielinski
