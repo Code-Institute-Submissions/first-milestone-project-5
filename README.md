@@ -119,9 +119,12 @@ I used fonts from **@googleapis CSS 'Cabin Caveat Barlow+Condensed'** to create 
 + Tested on **Opera**
 + Tested on **Safari**
 
-Element Tested|    OS    | YES | NO
- Animation    |  Chrome  |  OK |
- Dropdwon     |  Opera
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
  
 
 ## Deployment 
