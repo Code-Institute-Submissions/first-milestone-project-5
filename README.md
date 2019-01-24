@@ -112,6 +112,7 @@ I used fonts from **@googleapis CSS 'Cabin Caveat Barlow+Condensed'** to create 
 + Tested on **Chrome** (Tested in DevOps on all mobile and tablet devices possible for testing.)
 + Tested on **IE**
 + Tested on  **Android**
++ Tested on  **Samsung S6 - S9**
 + Tested on **Iphone**
 + Tested on **Firefox** (Tested in DevOps on all mobile and tablet devices possible for testing.)
 + Tested on **Opera** (Tested in DevOps on all mobile and tablet devices possible for testing.)
@@ -147,6 +148,20 @@ I used fonts from **@googleapis CSS 'Cabin Caveat Barlow+Condensed'** to create 
 
 
 |    Tested      | Android Tablet| Functions  |
+| -------------  |:-------------:|  ---------:|
+| Animation      |    Yes        |     Yes    |
+| Dropdown       |    Yes        |     Yes    |
+| Alert          |    Yes        |     Yes    |
+| Modal          |    Yes        |     Yes    |
+| About Us       |    Yes        |     Yes    |
+| Images         |    Yes        |     Yes    |
+| Contact        |    Yes        |     Yes    |
+| Audios         |    Yes        |     Yes    |
+| Videos         |    Yes        |     Yes    |
+| Carousel       |    Yes        |     Yes    |
+
+
+|    Tested      | Samsung S6-S9 | Functions  |
 | -------------  |:-------------:|  ---------:|
 | Animation      |    Yes        |     Yes    |
 | Dropdown       |    Yes        |     Yes    |
