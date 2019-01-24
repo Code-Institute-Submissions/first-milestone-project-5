@@ -43,9 +43,8 @@ as the user gets to the bottom of each page I assumed htis could improve social 
 
 * Subscription form has been added to site via modal. To help user/fans connnect with the band via email updates.
 
-* Gallery - Images optimized to reduce size to improve page laod speed. Fancy box plug in use djsut for
-the purpose of this project. Fancy box was a improvment to improve the UX for the gallery when viewed by 
-a visitor.
+* Gallery - Images optimized to reduce size to improve page laod speed. Font awesome Icons was used to improve the UX for the gallery when viewed by 
+a fan/visitor.
 
 * Contact form - CSS used to add abit of interactivity to the contact page.
 
