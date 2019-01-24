@@ -24,6 +24,8 @@ will be more beneficial to have a lighter contrast for readability purposes.
 
 * All the images for this project have been provided by the band representatives.
 
+* Animation was used to improve UX and
+
 * Homepage alert - JS alert used to show visitors/fans about upcoming updates and latest releases.
 
 * Nav - Bootstrap hamburger menu used for mobile/tablet. Bootstrap used for quick production of modern CSS
@@ -39,11 +41,11 @@ view the bands videos so the user/fan does not have to be redirected from the ba
 * Social buttons - I have added the bands social follow buttons to the footer of every page, this is aimed
 at hoping to increase their following by traffic coming from the website.
 I went with the approach of in sight in mind, if the socials icons are visible all the time in the footeer
-as the user gets to the bottom of each page I assumed htis could improve social following.
+as the user gets to the bottom of each page I assumed this could improve social following.
 
 * Subscription form has been added to site via modal. To help user/fans connnect with the band via email updates.
 
-* Gallery - Images optimized to reduce size to improve page laod speed. Font awesome Icons was used to improve the UX for the gallery when viewed by 
+* Gallery - Font awesome Icons was used to improve the UX for the gallery when viewed by 
 a fan/visitor.
 
 * Contact form - CSS used to add abit of interactivity to the contact page.
@@ -58,6 +60,8 @@ mailing list for the band to be able to do regular new updates to their sites.
 * More could be added to audio tracks and audio tracks could be listed as playlist and trigger changes automatically via JS.
 
 * Contact form can be updated with JS by adding mail functions to it.
+
+* Modal could be updated to trigger data. 
 
 
 
